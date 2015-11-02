@@ -16,7 +16,6 @@ Dialog::~Dialog()
 void Dialog::on_pushButton_clicked()
 {
     SubView *QQ=new SubView(this);
-
     QQ->setModal(true);
     QQ->setEnabled(true);
     QQ->showNormal();
